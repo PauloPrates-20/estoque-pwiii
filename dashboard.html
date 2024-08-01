@@ -4,9 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Estoque</title>
+
+        <link rel="stylesheet" href="main.css">
+        <script src="./main.js" defer></script>
     </head>
 
     <body>
-        <h1>Dashboard</h1>
+        <main>
+            <h3>Produtos</h3>
+            <ul id="lista-produtos"></ul>
+        </main>
+
+        <aside>
+            <div class="input-container">
+                <input type="text" id="produto" placeholder="Produto...">
+                <input type="number" id="preco" placeholder="Preço...">
+                <input type="number" id="qtd" placeholder="Estoque...">
+            </div>
+
+            <button class="form-button">Cadastrar</button>
+        </aside>
     </body>
 </html>
