@@ -97,7 +97,6 @@ aside {
 .form-button {
     padding: .3rem .5rem;
 
-    background-color: rgb(44, 176, 44);
     color: #fff;
 
     border: .1rem solid #000;
@@ -108,4 +107,16 @@ aside {
 
 .form-button:active {
     cursor: default;
+}
+
+.adicionar {
+    background-color: rgb(44, 176, 44);
+}
+
+.cancelar {
+    background-color: rgb(118, 10, 10);
+}
+
+.hidden {
+    display: none;
 }

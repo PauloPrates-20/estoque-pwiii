@@ -18,12 +18,19 @@
     
             <aside>
                 <div class="input-container">
+                    <input type="text" id="id" class="hidden" disabled>
                     <input type="text" id="produto" placeholder="Produto...">
                     <input type="text" id="preco" placeholder="Preço...">
                     <input type="text" id="qtd" placeholder="Estoque...">
                 </div>
     
-                <button id="submit" class="form-button">Cadastrar</button>
+                <div id="submit-container">
+                    <button id="submit" class="form-button adicionar">Cadastrar</button>
+                </div>
+                <div id="edit-container" class="hidden">
+                    <button id="confirmar" class="form-button adicionar">Confirmar</button>
+                    <button id="cancelar" class="form-button cancelar">Cancelar</button>
+                </div>
             </aside>
         </div>
     </body>
