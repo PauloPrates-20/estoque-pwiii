@@ -7,3 +7,105 @@
 :root {
     font-size: 62.5%;
 }
+
+.container {
+    width: 100%;
+    
+    margin-top: 3rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+main, aside {
+    border: .1rem solid #000;
+    border-radius: .5rem;
+
+    width: 40%;
+    min-height: 50vh;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding: 1rem 1rem;
+}
+
+main h3 {
+    text-align: center;
+
+    font-size: 2.4rem;
+}
+
+.lista-produtos {
+    list-style: none;
+
+    font-size: 1.3rem;
+}
+
+.lista-produtos li {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    padding-bottom: 1rem;
+}
+
+.action {
+    padding: .2rem .3rem;
+
+    border: .1rem solid #000;
+    border-radius: .5rem;
+
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.action:active {
+    cursor: default;
+}
+
+.delete {
+    background-color: rgb(118, 10, 10);
+}
+
+.edit {
+    background-color: rgb(95, 95, 176);
+}
+
+aside {
+    display: flex;
+    flex-flow: column nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5rem 1rem;
+}
+
+.input-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5rem;
+}
+
+.form-button {
+    padding: .3rem .5rem;
+
+    background-color: rgb(44, 176, 44);
+    color: #fff;
+
+    border: .1rem solid #000;
+    border-radius: .5rem;
+
+    cursor: pointer;
+}
+
+.form-button:active {
+    cursor: default;
+}

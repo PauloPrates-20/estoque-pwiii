@@ -10,19 +10,21 @@
     </head>
 
     <body>
-        <main>
-            <h3>Produtos</h3>
-            <ul id="lista-produtos"></ul>
-        </main>
-
-        <aside>
-            <div class="input-container">
-                <input type="text" id="produto" placeholder="Produto...">
-                <input type="number" id="preco" placeholder="Preço...">
-                <input type="number" id="qtd" placeholder="Estoque...">
-            </div>
-
-            <button class="form-button">Cadastrar</button>
-        </aside>
+        <div class="container">
+            <main>
+                <h3>Produtos</h3>
+                <ul id="lista-produtos" class="lista-produtos"></ul>
+            </main>
+    
+            <aside>
+                <div class="input-container">
+                    <input type="text" id="produto" placeholder="Produto...">
+                    <input type="text" id="preco" placeholder="Preço...">
+                    <input type="text" id="qtd" placeholder="Estoque...">
+                </div>
+    
+                <button id="submit" class="form-button">Cadastrar</button>
+            </aside>
+        </div>
     </body>
 </html>
